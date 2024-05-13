@@ -1,0 +1,16 @@
+.main-content {
+  display: flex;
+  justify-content: var(--justify, center);
+  align-items: var(--align, center);
+  flex-direction: var(--direction, column);
+  width: calc(100vw - var(--width-offset, 0));
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
